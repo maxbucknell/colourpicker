@@ -13,6 +13,11 @@
 		36426FD62586395E009A8998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36426FD42586395E009A8998 /* Main.storyboard */; };
 		36426FD825863960009A8998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36426FD725863960009A8998 /* Assets.xcassets */; };
 		36426FDB25863960009A8998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36426FD925863960009A8998 /* LaunchScreen.storyboard */; };
+		36978938258853C2008B4650 /* SaturationBrightnessPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36978937258853C2008B4650 /* SaturationBrightnessPickerView.swift */; };
+		3697893B25886485008B4650 /* HuePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697893A25886485008B4650 /* HuePicker.swift */; };
+		369E6585258B7CC500E796AD /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369E6584258B7CC500E796AD /* CGRect.swift */; };
+		369E6589258B7DA000E796AD /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369E6588258B7DA000E796AD /* CGVector.swift */; };
+		369E6594258B8D1400E796AD /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369E6593258B8D1400E796AD /* UIGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		36426FD725863960009A8998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36426FDA25863960009A8998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36426FDC25863960009A8998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36978937258853C2008B4650 /* SaturationBrightnessPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturationBrightnessPickerView.swift; sourceTree = "<group>"; };
+		3697893A25886485008B4650 /* HuePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuePicker.swift; sourceTree = "<group>"; };
+		369E6584258B7CC500E796AD /* CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		369E6588258B7DA000E796AD /* CGVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGVector.swift; sourceTree = "<group>"; };
+		369E6593258B8D1400E796AD /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		36426FCD2586395E009A8998 /* ColourPicker */ = {
 			isa = PBXGroup;
 			children = (
+				369E6583258B7CBB00E796AD /* Extensions */,
 				36426FCE2586395E009A8998 /* AppDelegate.swift */,
 				36426FD02586395E009A8998 /* SceneDelegate.swift */,
 				36426FD22586395E009A8998 /* ViewController.swift */,
+				36978937258853C2008B4650 /* SaturationBrightnessPickerView.swift */,
 				36426FD42586395E009A8998 /* Main.storyboard */,
+				3697893A25886485008B4650 /* HuePicker.swift */,
 				36426FD725863960009A8998 /* Assets.xcassets */,
 				36426FD925863960009A8998 /* LaunchScreen.storyboard */,
 				36426FDC25863960009A8998 /* Info.plist */,
 			);
 			path = ColourPicker;
+			sourceTree = "<group>";
+		};
+		369E6583258B7CBB00E796AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				369E6584258B7CC500E796AD /* CGRect.swift */,
+				369E6588258B7DA000E796AD /* CGVector.swift */,
+				369E6593258B8D1400E796AD /* UIGestureRecognizer.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3697893B25886485008B4650 /* HuePicker.swift in Sources */,
+				369E6594258B8D1400E796AD /* UIGestureRecognizer.swift in Sources */,
+				369E6585258B7CC500E796AD /* CGRect.swift in Sources */,
+				369E6589258B7DA000E796AD /* CGVector.swift in Sources */,
 				36426FD32586395E009A8998 /* ViewController.swift in Sources */,
 				36426FCF2586395E009A8998 /* AppDelegate.swift in Sources */,
 				36426FD12586395E009A8998 /* SceneDelegate.swift in Sources */,
+				36978938258853C2008B4650 /* SaturationBrightnessPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
