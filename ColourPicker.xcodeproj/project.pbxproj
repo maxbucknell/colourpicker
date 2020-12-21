@@ -13,11 +13,21 @@
 		36426FD62586395E009A8998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36426FD42586395E009A8998 /* Main.storyboard */; };
 		36426FD825863960009A8998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36426FD725863960009A8998 /* Assets.xcassets */; };
 		36426FDB25863960009A8998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36426FD925863960009A8998 /* LaunchScreen.storyboard */; };
+		3655F21B258E3AD8007C79C2 /* SaturationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3655F21A258E3AD8007C79C2 /* SaturationLayer.swift */; };
+		3655F21E258E3B7E007C79C2 /* BrightnessLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3655F21D258E3B7E007C79C2 /* BrightnessLayer.swift */; };
 		36978938258853C2008B4650 /* SaturationBrightnessPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36978937258853C2008B4650 /* SaturationBrightnessPickerView.swift */; };
-		3697893B25886485008B4650 /* HuePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697893A25886485008B4650 /* HuePicker.swift */; };
+		3697893B25886485008B4650 /* HuePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697893A25886485008B4650 /* HuePickerView.swift */; };
 		369E6585258B7CC500E796AD /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369E6584258B7CC500E796AD /* CGRect.swift */; };
 		369E6589258B7DA000E796AD /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369E6588258B7DA000E796AD /* CGVector.swift */; };
 		369E6594258B8D1400E796AD /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369E6593258B8D1400E796AD /* UIGestureRecognizer.swift */; };
+		36EB4BCC25909AEB0069CB0E /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EB4BCB25909AEB0069CB0E /* CGFloat.swift */; };
+		36EB4BCF2590A5FC0069CB0E /* HueLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EB4BCE2590A5FC0069CB0E /* HueLayer.swift */; };
+		36EB4BD22590A95C0069CB0E /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EB4BD12590A95C0069CB0E /* CGPoint.swift */; };
+		36EB4BD52590CB2A0069CB0E /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EB4BD42590CB2A0069CB0E /* CALayer.swift */; };
+		36FDAFF2258DB0DE005F6B5D /* ColourPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDAFF1258DB0DE005F6B5D /* ColourPickerView.swift */; };
+		36FDAFF7258DB29C005F6B5D /* HueGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDAFF6258DB29C005F6B5D /* HueGradientLayer.swift */; };
+		36FDAFFC258DB9D7005F6B5D /* SubLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDAFFB258DB9D7005F6B5D /* SubLayer.swift */; };
+		36FDB000258DBA03005F6B5D /* ThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDAFFF258DBA03005F6B5D /* ThumbLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +39,21 @@
 		36426FD725863960009A8998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36426FDA25863960009A8998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36426FDC25863960009A8998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3655F21A258E3AD8007C79C2 /* SaturationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturationLayer.swift; sourceTree = "<group>"; };
+		3655F21D258E3B7E007C79C2 /* BrightnessLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessLayer.swift; sourceTree = "<group>"; };
 		36978937258853C2008B4650 /* SaturationBrightnessPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturationBrightnessPickerView.swift; sourceTree = "<group>"; };
-		3697893A25886485008B4650 /* HuePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuePicker.swift; sourceTree = "<group>"; };
+		3697893A25886485008B4650 /* HuePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuePickerView.swift; sourceTree = "<group>"; };
 		369E6584258B7CC500E796AD /* CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		369E6588258B7DA000E796AD /* CGVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGVector.swift; sourceTree = "<group>"; };
 		369E6593258B8D1400E796AD /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizer.swift; sourceTree = "<group>"; };
+		36EB4BCB25909AEB0069CB0E /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		36EB4BCE2590A5FC0069CB0E /* HueLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueLayer.swift; sourceTree = "<group>"; };
+		36EB4BD12590A95C0069CB0E /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		36EB4BD42590CB2A0069CB0E /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		36FDAFF1258DB0DE005F6B5D /* ColourPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourPickerView.swift; sourceTree = "<group>"; };
+		36FDAFF6258DB29C005F6B5D /* HueGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueGradientLayer.swift; sourceTree = "<group>"; };
+		36FDAFFB258DB9D7005F6B5D /* SubLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubLayer.swift; sourceTree = "<group>"; };
+		36FDAFFF258DBA03005F6B5D /* ThumbLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +87,11 @@
 			isa = PBXGroup;
 			children = (
 				369E6583258B7CBB00E796AD /* Extensions */,
+				36FDAFF4258DB207005F6B5D /* ColourPickerView */,
 				36426FCE2586395E009A8998 /* AppDelegate.swift */,
 				36426FD02586395E009A8998 /* SceneDelegate.swift */,
 				36426FD22586395E009A8998 /* ViewController.swift */,
-				36978937258853C2008B4650 /* SaturationBrightnessPickerView.swift */,
 				36426FD42586395E009A8998 /* Main.storyboard */,
-				3697893A25886485008B4650 /* HuePicker.swift */,
 				36426FD725863960009A8998 /* Assets.xcassets */,
 				36426FD925863960009A8998 /* LaunchScreen.storyboard */,
 				36426FDC25863960009A8998 /* Info.plist */,
@@ -84,10 +103,37 @@
 			isa = PBXGroup;
 			children = (
 				369E6584258B7CC500E796AD /* CGRect.swift */,
+				36EB4BCB25909AEB0069CB0E /* CGFloat.swift */,
 				369E6588258B7DA000E796AD /* CGVector.swift */,
 				369E6593258B8D1400E796AD /* UIGestureRecognizer.swift */,
+				36EB4BD12590A95C0069CB0E /* CGPoint.swift */,
+				36EB4BD42590CB2A0069CB0E /* CALayer.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		36FDAFF4258DB207005F6B5D /* ColourPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				36FDAFFA258DB9C9005F6B5D /* Layers */,
+				36FDAFF1258DB0DE005F6B5D /* ColourPickerView.swift */,
+				36978937258853C2008B4650 /* SaturationBrightnessPickerView.swift */,
+				3697893A25886485008B4650 /* HuePickerView.swift */,
+			);
+			path = ColourPickerView;
+			sourceTree = "<group>";
+		};
+		36FDAFFA258DB9C9005F6B5D /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				36FDAFF6258DB29C005F6B5D /* HueGradientLayer.swift */,
+				36FDAFFF258DBA03005F6B5D /* ThumbLayer.swift */,
+				36FDAFFB258DB9D7005F6B5D /* SubLayer.swift */,
+				3655F21A258E3AD8007C79C2 /* SaturationLayer.swift */,
+				36EB4BCE2590A5FC0069CB0E /* HueLayer.swift */,
+				3655F21D258E3B7E007C79C2 /* BrightnessLayer.swift */,
+			);
+			path = Layers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,13 +206,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3697893B25886485008B4650 /* HuePicker.swift in Sources */,
+				36EB4BCC25909AEB0069CB0E /* CGFloat.swift in Sources */,
+				3697893B25886485008B4650 /* HuePickerView.swift in Sources */,
 				369E6594258B8D1400E796AD /* UIGestureRecognizer.swift in Sources */,
 				369E6585258B7CC500E796AD /* CGRect.swift in Sources */,
 				369E6589258B7DA000E796AD /* CGVector.swift in Sources */,
 				36426FD32586395E009A8998 /* ViewController.swift in Sources */,
+				36FDAFF7258DB29C005F6B5D /* HueGradientLayer.swift in Sources */,
 				36426FCF2586395E009A8998 /* AppDelegate.swift in Sources */,
+				36EB4BCF2590A5FC0069CB0E /* HueLayer.swift in Sources */,
+				3655F21B258E3AD8007C79C2 /* SaturationLayer.swift in Sources */,
+				3655F21E258E3B7E007C79C2 /* BrightnessLayer.swift in Sources */,
 				36426FD12586395E009A8998 /* SceneDelegate.swift in Sources */,
+				36FDB000258DBA03005F6B5D /* ThumbLayer.swift in Sources */,
+				36EB4BD22590A95C0069CB0E /* CGPoint.swift in Sources */,
+				36FDAFFC258DB9D7005F6B5D /* SubLayer.swift in Sources */,
+				36EB4BD52590CB2A0069CB0E /* CALayer.swift in Sources */,
+				36FDAFF2258DB0DE005F6B5D /* ColourPickerView.swift in Sources */,
 				36978938258853C2008B4650 /* SaturationBrightnessPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
